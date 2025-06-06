@@ -86,9 +86,10 @@
 		class="h-96 inline-block w-full focus:outline-none leading-7 border-1 border-zinc-400 rounded p-3"
 		contenteditable="true"
 	>
-		hello <span id="chip-1" class="text chip" contenteditable="false"
+		Here is some example text. Try changing the column names above to see the chips update in real
+		time! Here is an example chip: <span id="chip-1" class="text chip" contenteditable="false"
 			>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LindedIn URL&nbsp;&nbsp;</span
-		>&nbsp;
+		>&nbsp;Type / to add more.
 	</div>
 	{#if dropdownVisible}
 		<Dropdown columns={filteredColumns} {top} {left} {selectChip} bind:visible={dropdownVisible} />
