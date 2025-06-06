@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+.chip {
+	background-color: #d9eafd;
+	border-radius: 3px;
+	border: #93c2f5 1px solid;
+	font-size: 0.8em;
+	padding: 0.3em 0;
+	white-space: nowrap;
+	background-image: url('data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M12%203V21M9%2021H15M19%206V3H5V6%22%20stroke%3D%22%23000000%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%0A%3C%2Fsvg%3E');
+	background-repeat: no-repeat;
+	background-position: center left 0.2rem;
+	background-size: 1.1em;
+}
+
+.chip.profile {
+	background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%20stroke-width%3D%221.5%22%20stroke%3D%22currentColor%22%20class%3D%22size-6%22%3E%0A%20%20%3Cpath%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20d%3D%22M15.75%206a3.75%203.75%200%201%201-7.5%200%203.75%203.75%200%200%201%207.5%200ZM4.501%2020.118a7.5%207.5%200%200%201%2014.998%200A17.933%2017.933%200%200%201%2012%2021.75c-2.676%200-5.216-.584-7.499-1.632Z%22%20%2F%3E%0A%3C%2Fsvg%3E%0A');
+	background-color: #f4edff;
+	border: #d3c9ee 1px solid;
+}
